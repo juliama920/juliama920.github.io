@@ -22,7 +22,7 @@
   *{ margin:0; padding:0; box-sizing:border-box; }
 
   html{
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
     scroll-behavior: smooth;
   }
 
@@ -403,6 +403,7 @@
   }
 
   footer{
+    scroll-snap-align: start;
     padding: 4rem 8vw 2.4rem;
     background: var(--umber-light);
     border-top: 1px solid rgba(198,154,78,0.24);
@@ -501,21 +502,21 @@
   <section id="show">
     <div class="dance-floor"></div>
     <p class="eyebrow">SLC Punks presents:</p>
-    <h1 class="show-title">The <span class="accent">A Night at Gino's</span></h1>
+    <h1 class="show-title">A Night at <span class="accent">Gino's</span></h1>
     <p class="show-sub">
       Come and enter Gino's, the club where the culture of punking was born. This show will take you on a journey through punking's 
       original influences and creators while exploring the artists' own inspirations. The SLC Punks will be joined by other local club-style 
       rtists for a night of connection, expression, and celebration. Put on your best club fit and come laugh, cry, and dance the night away at "A Night at Gino's!"</p>
     <div class="show-meta">
       <p>DOORS 7:00 | SHOW 7:30</p>
-      <p>The Pearl on Main</p>
+      <p>@The Pearl on Main</p>
     </div>
     <div class="ticket-links">
-      <a href="https://www.eventbrite.com/e/slc-punks-present-a-night-at-ginos-tickets-1997725381393?aff=oddtdtcreator" class="ticket-btn">
+      <a href="https://www.eventbrite.com/e/slc-punks-present-a-night-at-ginos-tickets-1997725381393?aff=oddtdtcreator" class="ticket-btn" target="_blank" >
         <span class="ticket-day">Saturday</span>
         <span class="ticket-sub">Sept 19 &middot; Get Tickets</span>
       </a>
-      <a href="https://www.eventbrite.com/e/slc-punks-present-a-night-at-ginos-tickets-1997751293898?aff=oddtdtcreator" class="ticket-btn">
+      <a href="https://www.eventbrite.com/e/slc-punks-present-a-night-at-ginos-tickets-1997751293898?aff=oddtdtcreator" class="ticket-btn" target="_blank" >
         <span class="ticket-day">Sunday</span>
         <span class="ticket-sub">Sept 20 &middot; Get Tickets</span>
       </a>
@@ -629,15 +630,15 @@
     <p class="eyebrow">Since 2023</p>
     <h2 class="section-heading">Who We Are</h2>
     <div class="who-wrap">
-      {% comment %} <p class="who-statement">We make dances that trust the audience to <em>feel first</em> and understand second.</p> {% endcomment %}
+      <!-- <p class="who-statement">We make dances that trust the audience to <em>feel first</em> and understand second.</p> -->
       <div class="who-body">
         <p>SLC Punks is a dance group made up of artists seeking to inspire, educate, and cultivate the culture of punking. 
         Through events, classes, dance sessions, and performance opportunities, we intent to keep Punking alive and thriving in Utah
         </p>
-        {% comment %} <p>Mary Jane Dance Company was founded on the idea that contemporary dance doesn't need to explain itself to be understood. Every piece begins in the studio as a question about weight, breath, or contact &mdash; and grows from there.</p>
+        <!-- <p>Mary Jane Dance Company was founded on the idea that contemporary dance doesn't need to explain itself to be understood. Every piece begins in the studio as a question about weight, breath, or contact &mdash; and grows from there.</p>
         <p>We're a company of six dancers, one choreographer, and a rotating cast of composers and designers who build the world around each show. We rehearse in a converted warehouse, and we perform close to our audience, on purpose.</p>
         <div class="who-divider"></div>
-        <p>Based in the city, touring when it makes sense, and always looking for the next room to fill with movement.</p> {% endcomment %}
+        <p>Based in the city, touring when it makes sense, and always looking for the next room to fill with movement.</p> -->
       </div>
     </div>
   </section>
@@ -646,19 +647,19 @@
     <div class="footer-top">
       <div class="footer-icon">
         <h2>ICON</h2>
-        <p class="footer-tagline">Contemporary dance, staged close to the audience, on purpose.</p>
+        <!-- <p class="footer-tagline">Contemporary dance, staged close to the audience, on purpose.</p> -->
       </div>
       <div class="footer-links">
         <div class="footer-col">
           <h3>Connect</h3>
           <a href="https://instagram.com/slc.punks" target="_blank" rel="noopener">Instagram</a>
-          <a href="mailto:hello@maryjane.com">hello@maryjane.com</a>
+          <a href="mailto:hello@maryjane.com">email</a>
         </div>
-        <div class="footer-col">
+        <!-- <div class="footer-col">
           <h3>Visit</h3>
           <p>The Warehouse Theater</p>
           <p>Salt Lake City, UT</p>
-        </div>
+        </div> -->
         <div class="footer-col">
           <h3>Explore</h3>
           <a href="#show">A Night at Gino's</a>
@@ -669,7 +670,6 @@
     </div>
     <div class="footer-bottom">
       <span>&copy; 2026 SLC Punks</span>
-      {% comment %} <span>Site by You, hosted on GitHub Pages</span> {% endcomment %}
     </div>
   </footer>
 
