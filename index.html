@@ -22,7 +22,6 @@
   *{ margin:0; padding:0; box-sizing:border-box; }
 
   html{
-    scroll-snap-type: y proximity;
     scroll-behavior: smooth;
   }
 
@@ -135,8 +134,6 @@
 
   section{
     min-height: 100vh;
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -419,7 +416,6 @@
   }
 
   footer{
-    scroll-snap-align: start;
     padding: 4rem 8vw 2.4rem;
     background: var(--umber-light);
     border-top: 1px solid rgba(198,154,78,0.24);
@@ -517,7 +513,7 @@
 
   <section id="show">
     <div class="dance-floor"></div>
-    <p class="eyebrow">SLC Punks presents:</p>
+    <p class="eyebrow">SLC Punks presents</p>
     <h1 class="show-title">A Night at <span class="accent">Gino's</span></h1>
     <p class="show-sub">
       Come and enter Gino's, the club where the punking was born. This show will take you on a journey through punking's 
